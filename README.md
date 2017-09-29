@@ -1,4 +1,4 @@
 # ProgrammingFundamentals
 this is final version, conflick resolved
-making change from master for second time
+this is fina lversion from bash exercise from branches merged and conflick resolved
 

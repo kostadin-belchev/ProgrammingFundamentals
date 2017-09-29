@@ -1,2 +1,2 @@
 # ProgrammingFundamentals
-Adding a second line from LocalCopy, trying to create
+Writing a totally new message that should resolve the conflict

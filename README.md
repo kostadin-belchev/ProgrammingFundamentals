@@ -1,3 +1,4 @@
 # ProgrammingFundamentals
 Writing a totally new message that should resolve the conflict
-Making changes from master branch to the same file
+Writing a new line that resolves conflicts between Master and Develop branches
+

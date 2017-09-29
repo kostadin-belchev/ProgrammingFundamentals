@@ -4,3 +4,4 @@ Writing a new line that resolves conflicts between Master and Develop branches
 Delted branch develop and updating remote repository
 Adding in some lines for the Bash exercises
 Trying to make conflick by modifiying remote repository and committing
+adding different changes to online form on same line

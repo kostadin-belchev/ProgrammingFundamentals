@@ -1,2 +1,2 @@
 # ProgrammingFundamentals
-Adding a second line from LocalCopy, trying to create conflict
+Adding a second line from LocalCopy, trying to create

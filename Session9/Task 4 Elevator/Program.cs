@@ -22,7 +22,7 @@ namespace Task_4_Elevator
             //}
             //Console.WriteLine(Math.Round(cources));
 
-            int cources =  (int) Math.Ceiling((double) n / p);
+            int cources =  (int) Math.Ceiling( n / (double) p);
             Console.WriteLine(cources);
         }
     }

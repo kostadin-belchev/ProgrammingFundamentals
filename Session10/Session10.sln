@@ -29,9 +29,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task12 Rectangle Properties
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13 Vowel or Digit", "Task13 Vowel or Digit\Task13 Vowel or Digit.csproj", "{515E30A5-17AB-49FC-A7AB-134B2E894A35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task14", "Task14\Task14.csproj", "{A049D7BC-59B1-45CE-B63E-A610AB888A6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task14 Integer to Hex and Binary", "Task14\Task14 Integer to Hex and Binary.csproj", "{A049D7BC-59B1-45CE-B63E-A610AB888A6A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task15 Fast Prime Checker", "Task15 Fast Prime Checker\Task15 Fast Prime Checker.csproj", "{140E96EF-606B-4878-A8A6-38EB2385E677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task16 Comparing Floats", "Task16 Comparing Floats\Task16 Comparing Floats.csproj", "{091AF82B-05F6-4B6F-B615-F1FEDC68B1F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task17 Print Part of the ASCII Table", "Task 17 Print Part of the ASCII Table\Task17 Print Part of the ASCII Table.csproj", "{58ACD5BD-8B85-4F54-9C33-6EA17DD09806}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{140E96EF-606B-4878-A8A6-38EB2385E677}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{140E96EF-606B-4878-A8A6-38EB2385E677}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{140E96EF-606B-4878-A8A6-38EB2385E677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091AF82B-05F6-4B6F-B615-F1FEDC68B1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091AF82B-05F6-4B6F-B615-F1FEDC68B1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091AF82B-05F6-4B6F-B615-F1FEDC68B1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091AF82B-05F6-4B6F-B615-F1FEDC68B1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58ACD5BD-8B85-4F54-9C33-6EA17DD09806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58ACD5BD-8B85-4F54-9C33-6EA17DD09806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58ACD5BD-8B85-4F54-9C33-6EA17DD09806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58ACD5BD-8B85-4F54-9C33-6EA17DD09806}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

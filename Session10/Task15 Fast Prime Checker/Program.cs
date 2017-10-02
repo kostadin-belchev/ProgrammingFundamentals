@@ -12,18 +12,18 @@ namespace Task15_Fast_Prime_Checker
         {
             int num = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i <= num; i++)
+            for (int i = 2; i <= num; i++)
             {
-                bool TowaLIE = true;
+                bool isPrime = true;
                 for (int j = 2; j <= Math.Sqrt(i); j++)
                 {
                     if (i % j == 0)
                     {
-                        TowaLIE = false;
+                        isPrime = false;
                         break;
                     }
                 }
-                Console.WriteLine($"{i} -> {TowaLIE}");
+                Console.WriteLine($"{i} -> {isPrime}");
             }
 
         }

@@ -18,7 +18,7 @@ namespace Task_6_Tripples_of_Letters
                 {
                     for (int third = 0; third < n; third++)
                     {
-                        Console.WriteLine("{0}{1}{2}", (char) 'a' + first, (char)'a' + second, (char)'a' + first);
+                        Console.WriteLine("{0}{1}{2} ", (char)('a' + first), (char) ('a' + second), (char) ('a' + third));
                     }
                 }
             }

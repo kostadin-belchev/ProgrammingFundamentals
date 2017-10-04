@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 6 Tripples of Letters"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 7 Greeting", "Task 7 Greeting\Task 7 Greeting.csproj", "{2F5DBCC9-C6EB-471F-BAB9-C8585CFDC774}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 8 Refactor Vol Pyramid", "Task 8 Refactor Vol Pyramid\Task 8 Refactor Vol Pyramid.csproj", "{BFC4DFAC-BA90-4B4E-91CD-4B41283BE678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 9 Refractor Special Num", "Task 9 Refractor Special Num\Task 9 Refractor Special Num.csproj", "{9E9A1AC4-FD3C-475C-B0CC-C1E17AE1488E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{2F5DBCC9-C6EB-471F-BAB9-C8585CFDC774}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F5DBCC9-C6EB-471F-BAB9-C8585CFDC774}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F5DBCC9-C6EB-471F-BAB9-C8585CFDC774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC4DFAC-BA90-4B4E-91CD-4B41283BE678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC4DFAC-BA90-4B4E-91CD-4B41283BE678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC4DFAC-BA90-4B4E-91CD-4B41283BE678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC4DFAC-BA90-4B4E-91CD-4B41283BE678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9A1AC4-FD3C-475C-B0CC-C1E17AE1488E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9A1AC4-FD3C-475C-B0CC-C1E17AE1488E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9A1AC4-FD3C-475C-B0CC-C1E17AE1488E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9A1AC4-FD3C-475C-B0CC-C1E17AE1488E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

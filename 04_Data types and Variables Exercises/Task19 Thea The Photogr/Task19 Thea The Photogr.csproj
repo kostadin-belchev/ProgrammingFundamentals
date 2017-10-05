@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9E19E7C1-411F-4C86-BDF5-9E621625BE89}</ProjectGuid>
+    <ProjectGuid>{D2113549-1F4A-4220-A76F-5BE4EB94C367}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task18_Different_Integers_Size</RootNamespace>
-    <AssemblyName>Task18 Different Integers Size</AssemblyName>
+    <RootNamespace>Task19_Thea_The_Photogr</RootNamespace>
+    <AssemblyName>Task19 Thea The Photogr</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

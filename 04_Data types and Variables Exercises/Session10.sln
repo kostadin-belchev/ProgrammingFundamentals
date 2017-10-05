@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task17 Print Part of the AS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task18 Different Integers Size", "Task18 Different Integers Size\Task18 Different Integers Size.csproj", "{9E19E7C1-411F-4C86-BDF5-9E621625BE89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task19 Thea The Photogr", "Task19 Thea The Photogr\Task19 Thea The Photogr.csproj", "{D2113549-1F4A-4220-A76F-5BE4EB94C367}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{9E19E7C1-411F-4C86-BDF5-9E621625BE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E19E7C1-411F-4C86-BDF5-9E621625BE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E19E7C1-411F-4C86-BDF5-9E621625BE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2113549-1F4A-4220-A76F-5BE4EB94C367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2113549-1F4A-4220-A76F-5BE4EB94C367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2113549-1F4A-4220-A76F-5BE4EB94C367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2113549-1F4A-4220-A76F-5BE4EB94C367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

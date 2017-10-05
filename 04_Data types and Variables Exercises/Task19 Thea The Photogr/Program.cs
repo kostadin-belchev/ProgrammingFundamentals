@@ -10,6 +10,7 @@ namespace Task19_Thea_The_Photogr
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

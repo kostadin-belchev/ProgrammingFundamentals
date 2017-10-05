@@ -12,69 +12,51 @@ namespace Task18_Different_Integers_Size
     {
         static void Main(string[] args)
         {
-            BigInteger bigNumber = new BigInteger();
-            bigNumber = BigInteger.Parse(Console.ReadLine());
+            //BigInteger bigNumber = new BigInteger();
+            //bigNumber = BigInteger.Parse(Console.ReadLine());
 
-
-        }
-    }
-}
-/*
-             * bool isSByte = false;
-            bool isByte = false;
-            bool isShort = false;
-            bool isUShort = false;
-            bool isInt = false;
-            bool isUInt = false;
-            bool isLong = false;
-            bool isULong = false;
-
+            string n = Console.ReadLine();
             
-            if (bigNumber <= -9223372036854775808 || bigNumber >= 9223372036854775807)
+            try
             {
-                Console.WriteLine($"{bigNumber} can't fit in any type");
-            }
-            else
-            {
-                Console.WriteLine($"{bigNumber} can fit in:");
-                if (bigNumber >= -128 && bigNumber <= 127)
+                long num = long.Parse(n);
+
+                Console.WriteLine($"{num} can fit in:");
+
+                if (num >= sbyte.MinValue && num <= sbyte.MaxValue)
                 {
-                    isSByte = true;
                     Console.WriteLine("* sbyte");
                 }
-                if (bigNumber >= 0 && bigNumber <= 255)
+                if (num >= byte.MinValue && num <= byte.MaxValue)
                 {
-                    isByte = true;
                     Console.WriteLine("* byte");
                 }
-                if (bigNumber >= -32768 && bigNumber <= 32767)
+                if (num >= short.MinValue && num <= short.MaxValue)
                 {
                     Console.WriteLine("* short");
-                    isShort = true;
                 }
-                if (bigNumber >= 0 && bigNumber <= 65535)
+                if (num >= ushort.MinValue && num <= ushort.MaxValue)
                 {
-                    isUShort = true;
                     Console.WriteLine("* ushort");
                 }
-                if (bigNumber >= -2147483648 && bigNumber <= 2147483647)
+                if (num >= int.MinValue && num <= int.MaxValue)
                 {
-                    isInt = true;
                     Console.WriteLine("* int");
                 }
-                if (bigNumber >= 0 && bigNumber <= 4294967295)
+                if (num >= uint.MinValue && num <= uint.MaxValue)
                 {
-                    isUInt = true;
                     Console.WriteLine("* uint");
                 }
-                if (bigNumber >= -9223372036854775808 && bigNumber <= 9223372036854775807)
+                if (num >= long.MinValue && num <= long.MaxValue)
                 {
-                    isLong = true;
                     Console.WriteLine("* long");
                 }
             }
-             * if (bigNumber >= 0 && bigNumber <= 18446744073709551615)
+            catch (Exception)
             {
-                isULong = true;
-                Console.WriteLine("* ulong");
-            }*/
+
+                Console.WriteLine($"{n} can't fit in any type");
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@
     <ProjectGuid>{736EEC5D-E4C8-48BD-A485-D832D39E8EF7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_01_Hello__Name_</RootNamespace>
-    <AssemblyName>_01_Hello__Name_</AssemblyName>
+    <AssemblyName>01_Hello, Name!</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

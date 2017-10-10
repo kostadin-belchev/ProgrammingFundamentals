@@ -47,9 +47,9 @@ namespace _11_Price_Change_Alert
 
             return output;
         }
-        private static bool IsThereSignDiff(double threshold, double isDiff)
+        private static bool IsThereSignDiff(double diff, double threshold)
         {
-            if (Math.Abs(threshold) >= isDiff)
+            if (Math.Abs(diff/100) >= threshold)
             {
                 return true;
             }
@@ -59,7 +59,7 @@ namespace _11_Price_Change_Alert
         private static double Percentage(double last, double current)
         {
             double percentageResult = (current - last) / last;
-            return percentageResult;
+            return percentageResult * 100;
         }
     }
 }

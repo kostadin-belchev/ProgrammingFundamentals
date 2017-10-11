@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Factorial", "13_Factoria
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Factorial Trailing Zeroes", "14_Factorial Trailing Zeroes\14_Factorial Trailing Zeroes.csproj", "{F71AF651-2011-4E3F-BBB6-DE49390B0161}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Substring", "15_Substring\15_Substring.csproj", "{28CB5890-169D-4B12-8493-DE0C32FE22D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Instruction Set", "16_Instruction Set\16_Instruction Set.csproj", "{04A9F57E-94E2-4508-92C0-DA14D7168B21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{F71AF651-2011-4E3F-BBB6-DE49390B0161}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F71AF651-2011-4E3F-BBB6-DE49390B0161}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F71AF651-2011-4E3F-BBB6-DE49390B0161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CB5890-169D-4B12-8493-DE0C32FE22D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CB5890-169D-4B12-8493-DE0C32FE22D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CB5890-169D-4B12-8493-DE0C32FE22D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CB5890-169D-4B12-8493-DE0C32FE22D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A9F57E-94E2-4508-92C0-DA14D7168B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A9F57E-94E2-4508-92C0-DA14D7168B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A9F57E-94E2-4508-92C0-DA14D7168B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A9F57E-94E2-4508-92C0-DA14D7168B21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

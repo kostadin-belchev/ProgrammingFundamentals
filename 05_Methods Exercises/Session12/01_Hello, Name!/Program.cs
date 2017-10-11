@@ -16,7 +16,7 @@ namespace _01_Hello__Name_
 
         private static void PrintName(string name)
         {
-            Console.WriteLine($"Hello, {name}");
+            Console.WriteLine($"Hello, {name}!");
         }
     }
 }

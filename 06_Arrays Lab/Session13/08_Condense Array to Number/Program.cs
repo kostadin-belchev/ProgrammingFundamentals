@@ -10,21 +10,22 @@ namespace _08_Condense_Array_to_Number
     {
         static void Main(string[] args)
         {
-            int[] nums = Console.ReadLine().Split(new[] { ' ' },StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            int[] nums = Console.ReadLine().Split(new[] { ' ' }
+            ,StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+
             int finalResult = 0;
+            int intermittentResult;
 
-            for (int j = 0; j < nums.Length - 1; j++)
+           
+            for (int i = 1; i < nums.Length; i++)
             {
-                int[] condensed = new int[nums.Length - 1];
-
-                for (int i = 0; i < condensed.Length; i++)
-                {
-                    condensed[i] = nums[i] + nums[i + 1];
-                }
-                nums = condensed;
-                //Array.Resize(ref nums, nums.Length - 1);
-                finalResult = condensed[0];
+                intermittentResult = nums[i -1] + (nums[i]);
+                finalResult += intermittentResult;
             }
+
+
             Console.WriteLine(finalResult);
         }
     }

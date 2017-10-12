@@ -10,6 +10,17 @@ namespace _01_Largest_Common_End
     {
         static void Main(string[] args)
         {
+            string[] firstStringOfWords = Console.ReadLine().Split(' ').ToArray();
+            string[] secondStringOfWords = Console.ReadLine().Split(' ').ToArray();
+
+            int counterOfEqualElem = 0;
+
+            int shorterArrayLenght = Math.Min(firstStringOfWords.Length, secondStringOfWords.Length);
+
+            for (int i = 0; i < shorterArrayLenght; i++)
+            {
+
+            }
         }
     }
 }

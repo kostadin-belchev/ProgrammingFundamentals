@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7A143E42-0E28-467F-BC5C-286D784A7AFD}</ProjectGuid>
+    <ProjectGuid>{E52A8D7D-5080-4CF8-B629-8C1A8DC4DC6A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02_Change_List</RootNamespace>
-    <AssemblyName>02_Change List</AssemblyName>
+    <RootNamespace>_07_Bomb_Numbers</RootNamespace>
+    <AssemblyName>07_Bomb Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

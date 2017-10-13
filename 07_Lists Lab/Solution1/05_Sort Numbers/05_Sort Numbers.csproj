@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7A143E42-0E28-467F-BC5C-286D784A7AFD}</ProjectGuid>
+    <ProjectGuid>{89C93745-53FA-4B96-8132-C0C5BE00B787}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02_Change_List</RootNamespace>
-    <AssemblyName>02_Change List</AssemblyName>
+    <RootNamespace>_05_Sort_Numbers</RootNamespace>
+    <AssemblyName>05_Sort Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

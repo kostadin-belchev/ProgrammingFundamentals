@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7A143E42-0E28-467F-BC5C-286D784A7AFD}</ProjectGuid>
+    <ProjectGuid>{3D767485-3A5B-43E4-92A0-64FE29FDD220}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02_Change_List</RootNamespace>
-    <AssemblyName>02_Change List</AssemblyName>
+    <RootNamespace>_02_Append_Lists</RootNamespace>
+    <AssemblyName>02_Append Lists</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

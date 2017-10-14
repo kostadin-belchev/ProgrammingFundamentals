@@ -10,7 +10,12 @@ namespace _01_Largest_Common_End
     {
         static void Main(string[] args)
         {
-            string[] firstStringOfWords = Console.ReadLine().Split(' ').ToArray();
+            
+        }
+    }
+}
+/* Solution
+ * string[] firstStringOfWords = Console.ReadLine().Split(' ').ToArray();
             string[] secondStringOfWords = Console.ReadLine().Split(' ').ToArray();
 
             int shorterArrayLenght = Math.Min(firstStringOfWords.Length, secondStringOfWords.Length);
@@ -35,6 +40,4 @@ namespace _01_Largest_Common_End
                 }
             }
             Console.WriteLine(Math.Max(rightCommonEnd, leftCommonEnd));
-        }
-    }
-}
+ */

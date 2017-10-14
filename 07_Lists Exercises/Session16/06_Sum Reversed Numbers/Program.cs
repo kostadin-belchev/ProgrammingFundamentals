@@ -10,6 +10,7 @@ namespace _06_Sum_Reversed_Numbers
     {
         static void Main(string[] args)
         {
+            //long result = Console.ReadLine().Split().Select(a => long.Parse(new string(a.Reverse().ToArray()))).Sum();
             List<string> nums = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
             //Console.WriteLine(string.Join(" ", nums));

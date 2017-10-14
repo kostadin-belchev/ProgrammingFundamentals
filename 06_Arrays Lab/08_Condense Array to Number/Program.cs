@@ -15,18 +15,24 @@ namespace _08_Condense_Array_to_Number
                 .Select(int.Parse)
                 .ToArray();
 
-            int finalResult = 0;
-            int intermittentResult;
-
-           
-            for (int i = 1; i < nums.Length; i++)
+            while (nums.Length > 1)
             {
-                intermittentResult = nums[i -1] + (nums[i]);
-                finalResult += intermittentResult;
+                int[] condensed = new int[nums.Length - 1];
+                for (int i = 1; i < nums.Length; i++)
+                {
+                    condensed[i - 1] = nums[i - 1] + nums[i];
+                }
+                nums = condensed;
+                //nums.Take(nums.Length - 1);
             }
+                
+            
 
-
-            Console.WriteLine(finalResult);
+            for (int i = 0; i < nums.Length; i++)
+            {
+                Console.Write(nums[i] + " ");
+            }
+            Console.WriteLine();
         }
     }
 }

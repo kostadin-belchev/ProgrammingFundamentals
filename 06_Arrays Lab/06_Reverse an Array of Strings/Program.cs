@@ -12,13 +12,32 @@ namespace _06_Reverse_an_Array_of_Strings
         {
             string[] arrayOfLittleString = Console.ReadLine().Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
 
-            Array.Reverse(arrayOfLittleString);
+            int n = arrayOfLittleString.Length;
+            string valueOfCurrIndex = "";
 
-            for (int i = 0; i < arrayOfLittleString.Length; i++)
+            for (int i = 1; i <= n / 2; i++)
+            {
+                
+                    valueOfCurrIndex = arrayOfLittleString[i - 1];
+                    arrayOfLittleString[i - 1] = arrayOfLittleString[n - i];
+                    arrayOfLittleString[n - i] = valueOfCurrIndex;
+
+                //need to do: valueOfCurrIndex = arrayOfLittleString[0];
+                //arrayOfLittleString[0] = arrayOfLittleString[n - 1];
+                //arrayOfLittleString[n - 1] = valueOfCurrIndex; (n - 1) / 2
+            }
+            for (int i = 0; i < n; i++)
             {
                 Console.Write(arrayOfLittleString[i] + " ");
             }
-            Console.WriteLine();
         }
     }
 }
+//Shorter solution using .Reverse() method
+//Array.Reverse(arrayOfLittleString);
+
+//for (int i = 0; i < arrayOfLittleString.Length; i++)
+//{
+//    Console.Write(arrayOfLittleString[i] + " ");
+//}
+//Console.WriteLine();

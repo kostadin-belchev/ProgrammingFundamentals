@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Rotate and Sum", "02_Rot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Compare Char Arrays", "05_Compare Char Arrays\05_Compare Char Arrays.csproj", "{B6B1E79B-4AEE-45FE-9612-44C4F7A3C276}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Fold and Sum", "03_Fold and Sum\03_Fold and Sum.csproj", "{48233498-0595-42A5-B3AC-C485A106CD73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Sieve of Eratosthenes", "04_Sieve of Eratosthenes\04_Sieve of Eratosthenes.csproj", "{922F4D81-6F63-47FA-AAF9-1B245D53C099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B6B1E79B-4AEE-45FE-9612-44C4F7A3C276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B1E79B-4AEE-45FE-9612-44C4F7A3C276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B1E79B-4AEE-45FE-9612-44C4F7A3C276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48233498-0595-42A5-B3AC-C485A106CD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48233498-0595-42A5-B3AC-C485A106CD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48233498-0595-42A5-B3AC-C485A106CD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48233498-0595-42A5-B3AC-C485A106CD73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922F4D81-6F63-47FA-AAF9-1B245D53C099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922F4D81-6F63-47FA-AAF9-1B245D53C099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922F4D81-6F63-47FA-AAF9-1B245D53C099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922F4D81-6F63-47FA-AAF9-1B245D53C099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

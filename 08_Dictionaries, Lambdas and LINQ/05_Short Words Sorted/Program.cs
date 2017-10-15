@@ -14,7 +14,7 @@ namespace _05_Short_Words_Sorted
 
             List<string> result = new List<string>();
 
-            result = words.Where(x => x.Length < 5).OrderBy(x => x).Select(x => x.ToLower()).Distinct().ToList();
+            result = words.Where(w => w.Length < 5).OrderBy(w => w).Select(w => w.ToLower()).Distinct().ToList();
 
             Console.WriteLine(string.Join(", ", result));
         }

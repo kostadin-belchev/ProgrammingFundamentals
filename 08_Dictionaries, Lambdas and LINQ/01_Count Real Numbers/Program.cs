@@ -10,18 +10,22 @@ namespace _01_Count_Real_Numbers
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            List<int> numbers = new List<int>();
+            List<double> nums = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(double.Parse).ToList();
 
-            for (int i = 0; i < n; i++)
+            SortedDictionary<double, int> counts = new SortedDictionary<double, int>();
+
+            foreach (var num in nums)
             {
-                numbers.Add(int.Parse(Console.ReadLine()));
+                if (counts.ContainsKey(num))
+                    counts[num]++;
+                else
+                    counts[num] = 1;
             }
 
-            Console.WriteLine("Sum = " + numbers.Sum());
-            Console.WriteLine("Min = " + numbers.Min());
-            Console.WriteLine("Max = " + numbers.Max());
-            Console.WriteLine("Average = " + numbers.Average());
+            foreach (var num in counts)
+            {
+                Console.WriteLine($"{num.Key} -> {num.Value}");
+            }
         }
     }
 }

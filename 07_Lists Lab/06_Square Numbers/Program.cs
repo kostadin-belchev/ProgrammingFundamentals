@@ -10,20 +10,23 @@ namespace _06_Square_Numbers
     {
         static void Main(string[] args)
         {
-            List<int> items = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            List<int> nums = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
             List<int> squareNums = new List<int>();
 
-            foreach (var item in items)
+            foreach (var num in nums)
             {
-                int num = item;
                 if (Math.Sqrt(num) == Math.Truncate(Math.Sqrt(num)))
                 {
-                    squareNums.Add(item);
+                    squareNums.Add(num);
                 }
             }
-            squareNums.Sort();
-            squareNums.Reverse();
+            //Variant 1
+            //squareNums.Sort();
+            //squareNums.Reverse();
+            //Console.WriteLine(string.Join(" ", squareNums));
+            //variant 2
+            squareNums.Sort((a, b) => b.CompareTo(a));
             Console.WriteLine(string.Join(" ", squareNums));
         }
     }

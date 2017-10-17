@@ -18,11 +18,11 @@ namespace _02_Append_Lists
             
             foreach (var token in tokens)
             {
-                List<string> nums = token.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
-                results.Add(nums);
+                List<string> setOfNums = token.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                results.AddRange(setOfNums);
             }
-
-            Console.WriteLine(string.Join(" ", results));
+            
+            Console.Write(string.Join(" ", results));
 
             Console.WriteLine();
         }

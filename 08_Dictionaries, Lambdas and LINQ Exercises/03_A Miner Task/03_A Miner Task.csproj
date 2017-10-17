@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A854A8C0-5CD0-4CC2-9743-8BA4EED98E6D}</ProjectGuid>
+    <ProjectGuid>{A44D12FE-54B6-4171-9CE0-0B34DB133900}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06_Max_Sequence_of_Equal_Elements</RootNamespace>
-    <AssemblyName>06_Max Sequence of Equal Elements</AssemblyName>
+    <RootNamespace>_03_A_Miner_Task</RootNamespace>
+    <AssemblyName>03_A Miner Task</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

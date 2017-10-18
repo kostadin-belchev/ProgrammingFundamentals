@@ -11,22 +11,23 @@ namespace _07_Count_Numbers
         static void Main(string[] args)
         {
             // Algorithm 1: Sort the numbers and count occurrences of each number.
-            int[] nums = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-            Array.Sort(nums);
+            var nums = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            // 8 2 2 8 2 2 3 7
+            nums.Sort();
 
-            //Test if sorted correctly
+            //Test if sorted correctly {2, 2, 2, 2, 3, 7, 8, 8}.
             //Console.WriteLine(string.Join(" ", nums));
+            int[] counterArray= new int[1001];
 
-            for (int i = 1; i <= nums.Length; i++)
+            for (int i = 0; i < nums.Count; i++)
             {
-                var counter = 1;
-                if (nums[i - 1] == nums[i])
+                counterArray[nums[i]]++;
+            }
+            for (int i = 0; i < counterArray.Length; i++)
+            {
+                if (counterArray[i] != 0)
                 {
-                    counter++;
-                }
-                else
-                {
-                    Console.WriteLine($"{nums[i]} -> {counter}");
+                    Console.WriteLine($"{i} -> {counterArray[i]}");
                 }
             }
         }

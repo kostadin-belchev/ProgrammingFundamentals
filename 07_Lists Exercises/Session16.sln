@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Search for a Number", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Bomb Numbers", "07_Bomb Numbers\07_Bomb Numbers.csproj", "{E52A8D7D-5080-4CF8-B629-8C1A8DC4DC6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_LongestIncreasingSubsequence,LIS", "04_LongestIncreasingSubsequence,LIS\04_LongestIncreasingSubsequence,LIS.csproj", "{295D2B1F-F1E9-4136-AD5B-85D22AE94980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Array Manipulator", "05_Array Manipulator\05_Array Manipulator.csproj", "{4F336622-EF29-486E-B564-7909B2FC5BB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{E52A8D7D-5080-4CF8-B629-8C1A8DC4DC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E52A8D7D-5080-4CF8-B629-8C1A8DC4DC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E52A8D7D-5080-4CF8-B629-8C1A8DC4DC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295D2B1F-F1E9-4136-AD5B-85D22AE94980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295D2B1F-F1E9-4136-AD5B-85D22AE94980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295D2B1F-F1E9-4136-AD5B-85D22AE94980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295D2B1F-F1E9-4136-AD5B-85D22AE94980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F336622-EF29-486E-B564-7909B2FC5BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F336622-EF29-486E-B564-7909B2FC5BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F336622-EF29-486E-B564-7909B2FC5BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F336622-EF29-486E-B564-7909B2FC5BB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

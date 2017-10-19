@@ -10,13 +10,39 @@ namespace _04_Fix_Emails
     {
         static void Main(string[] args)
         {
-            Dictionary<string, int> listOfNamesAndEmails = new Dictionary<string, int>();
+            Dictionary<string, string> listOfNamesAndEmails = new Dictionary<string, string>();
+            Dictionary<string, string> resultsOfNamesAndEmails = new Dictionary<string, string>();
 
-            do
+            string oddLine = Console.ReadLine();
+
+            while (oddLine != "stop")
             {
-                listOfNamesAndEmails.Add(Console.ReadLine(), int.Parse(Console.ReadLine()));
+                if (oddLine == "stop")
+                    break;
+                else //if (listOfNamesAndEmails.Keys.Contains(oddLine))
+                {
+                    string keyToAdd = oddLine;
+                    string valueToAdd = Console.ReadLine();
+                    listOfNamesAndEmails.Add(keyToAdd, valueToAdd);
+                }
+                oddLine = Console.ReadLine();
+            }
 
-            } while (listOfNamesAndEmails.Last().Key == "stop");
+            foreach (var keyValuePair in listOfNamesAndEmails)
+            {
+
+                List<string> sumElementsOfEachValue = keyValuePair.Value.Split('.').ToList();
+                if (sumElementsOfEachValue.Last().ToLower() != "us" && sumElementsOfEachValue.Last().ToLower() != "uk")
+                {
+                    resultsOfNamesAndEmails.Add(keyValuePair.Key, keyValuePair.Value);
+                }
+                
+            }
+            foreach (var keyValuePair in resultsOfNamesAndEmails)
+            {
+                Console.WriteLine($"{keyValuePair.Key} -> {keyValuePair.Value}");
+            }
+            
         }
     }
 }

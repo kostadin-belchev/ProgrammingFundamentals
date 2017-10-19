@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_A Miner Task", "03_A Min
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Fix Emails", "04_Fix Emails\04_Fix Emails.csproj", "{3CA6B167-0296-4F00-A78B-70F14C0F7709}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Hands of Cards", "05_Hands of Cards\05_Hands of Cards.csproj", "{8964BCE8-D2DB-40F4-866B-7D2B48C9EEF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3CA6B167-0296-4F00-A78B-70F14C0F7709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA6B167-0296-4F00-A78B-70F14C0F7709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA6B167-0296-4F00-A78B-70F14C0F7709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8964BCE8-D2DB-40F4-866B-7D2B48C9EEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8964BCE8-D2DB-40F4-866B-7D2B48C9EEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8964BCE8-D2DB-40F4-866B-7D2B48C9EEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8964BCE8-D2DB-40F4-866B-7D2B48C9EEF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

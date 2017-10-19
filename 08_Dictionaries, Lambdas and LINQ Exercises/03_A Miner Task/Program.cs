@@ -12,7 +12,32 @@ namespace _03_A_Miner_Task
         {
             Dictionary<string, string> list = new Dictionary<string, string>();
 
+            string oddLine = Console.ReadLine();
+            string valueToAdd = "";
+            string evenLine = "";
+            string currValue = "";
 
+            while (oddLine != "stop")
+            {
+                string keyToAdd = "";
+                if (oddLine == "stop")
+                    break;
+                else if(!list.Keys.Contains(oddLine))
+                {
+                    keyToAdd = oddLine;
+                    evenLine = Console.ReadLine();
+                    valueToAdd = evenLine;
+                    list.Add(keyToAdd, valueToAdd);
+                }
+                else if (list.Keys.Contains(oddLine))
+                {
+                    evenLine = Console.ReadLine();
+                    list.TryGetValue(oddLine, out currValue);
+                    long sum = long.Parse(evenLine) + long.Parse(currValue);
+                    list[oddLine] = sum.ToString();
+                }
+                oddLine = Console.ReadLine();
+            }
             
             foreach (var keyValuePair in list)
             {

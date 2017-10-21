@@ -11,12 +11,14 @@ namespace _03_Word_Count
     {
         static void Main(string[] args)
         {
+            string[] words = File.ReadAllText("words.txt").ToLower().Split();
+
             string text = File.ReadAllText("input.txt").ToLower();
-            string[] words = text.Split(new char[] {'\n','\r',' ', '.', ',', '!', '?', '-'}, StringSplitOptions.RemoveEmptyEntries).ToArray();
+            string[] wordsInText = text.Split(new char[] {'\n','\r',' ', '.', ',', '!', '?', '-'}, StringSplitOptions.RemoveEmptyEntries).ToArray();
 
             Dictionary<string, int> wordsCount = new Dictionary<string, int>();
 
-            foreach (var word in words)
+            foreach (var word in wordsInText)
             {
                 if (wordsCount.ContainsKey(word))
                 {

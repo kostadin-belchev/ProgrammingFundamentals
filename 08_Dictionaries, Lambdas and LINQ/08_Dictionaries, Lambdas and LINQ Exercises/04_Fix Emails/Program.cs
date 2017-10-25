@@ -36,8 +36,8 @@ namespace _04_Fix_Emails
                 {
                     resultsOfNamesAndEmails.Add(keyValuePair.Key, keyValuePair.Value);
                 }
-                
             }
+
             foreach (var keyValuePair in resultsOfNamesAndEmails)
             {
                 Console.WriteLine($"{keyValuePair.Key} -> {keyValuePair.Value}");

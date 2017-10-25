@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Most Frequent Number", "01_Most Frequent Number\01_Most Frequent Number.csproj", "{711E2549-8C4D-4A5C-8635-D1471C487D62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Index of Letters", "02_Index of Letters\02_Index of Letters.csproj", "{23FB8898-7D92-48E5-9D2B-234C9B087205}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{711E2549-8C4D-4A5C-8635-D1471C487D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{711E2549-8C4D-4A5C-8635-D1471C487D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{711E2549-8C4D-4A5C-8635-D1471C487D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FB8898-7D92-48E5-9D2B-234C9B087205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FB8898-7D92-48E5-9D2B-234C9B087205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FB8898-7D92-48E5-9D2B-234C9B087205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FB8898-7D92-48E5-9D2B-234C9B087205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

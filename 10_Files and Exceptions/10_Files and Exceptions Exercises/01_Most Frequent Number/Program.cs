@@ -11,7 +11,7 @@ namespace _01_Most_Frequent_Number
     {
         static void Main(string[] args)
         {
-            string text = File.ReadAllText("Text files\\input.txt");
+            string text = File.ReadAllText("input.txt");
 
             int[] listOfNumbers = text.Split().Select(int.Parse).ToArray();
 
@@ -37,7 +37,7 @@ namespace _01_Most_Frequent_Number
                 }
             }
 
-            File.WriteAllText("Text files\\output.txt", mostFreqNumber.ToString());
+            File.WriteAllText("output.txt", mostFreqNumber.ToString());
         }
     }
 }

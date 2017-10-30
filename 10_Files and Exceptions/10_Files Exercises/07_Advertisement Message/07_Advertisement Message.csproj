@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA59DB0C-8E41-4A29-AD0B-8781CC14D10B}</ProjectGuid>
+    <ProjectGuid>{F638BC87-BA99-42F4-9DD0-A010D3F11BB8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Convert_fr_Base_10_to_Base_N</RootNamespace>
-    <AssemblyName>01_Convert fr Base-10 to Base-N</AssemblyName>
+    <RootNamespace>_07_Advertisement_Message</RootNamespace>
+    <AssemblyName>07_Advertisement Message</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Rage Quit", "03_Rage Qui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Files", "04_Files\04_Files.csproj", "{1147E0F0-0CFF-4EA6-84A8-3D1722369052}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Command Interpreter", "02_Command Interpreter\02_Command Interpreter.csproj", "{205A84F7-0A28-47A4-BF97-86270C60AFBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1147E0F0-0CFF-4EA6-84A8-3D1722369052}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1147E0F0-0CFF-4EA6-84A8-3D1722369052}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1147E0F0-0CFF-4EA6-84A8-3D1722369052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205A84F7-0A28-47A4-BF97-86270C60AFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205A84F7-0A28-47A4-BF97-86270C60AFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205A84F7-0A28-47A4-BF97-86270C60AFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205A84F7-0A28-47A4-BF97-86270C60AFBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

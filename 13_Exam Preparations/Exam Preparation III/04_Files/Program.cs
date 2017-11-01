@@ -12,19 +12,11 @@ namespace _04_Files
         {
             //input
             long N = long.Parse(Console.ReadLine());
-            Dictionary<string, decimal> pathAndSize = new Dictionary<string, decimal>();
-            Dictionary<string, decimal> nameOfExtensionAndSize = new Dictionary<string, decimal>();
+            List<string> allFiles = new List<string>();
 
-            for (int i = 0; i < N; i++)
+            for (long i = 0; i < N; i++)
             {
-                string[] currPathAndSize = Console.ReadLine().Split(';').ToArray();
-                pathAndSize.Add(currPathAndSize[0], decimal.Parse(currPathAndSize[1]));
-            }
-
-            List<string> paths = new List<string>();
-            foreach (var path in pathAndSize)
-            {
-                paths = path.Key.Split('\\').ToList();
+                allFiles.Add(Console.ReadLine());
             }
 
             string[] searchItems = Console.ReadLine().Split().ToArray();
@@ -32,12 +24,48 @@ namespace _04_Files
             string root = searchItems[2];
 
             //program
-            foreach (var keyValuePair in nameOfExtensionAndSize)
+            Dictionary<string, long> fileSize = new Dictionary<string, long>();
+
+            foreach (var file in allFiles)
             {
-                
+                var filePlusSize = file.Split(';');
+                var size = long.Parse(filePlusSize[1]);
+                var filePath = filePlusSize[0];
+
+                if (filePath.EndsWith("." + extension) && filePath.StartsWith(root + @"\"))
+                {
+                    var pathTokens = filePath.Split('\\');
+                    var fileName = pathTokens.Last();
+                    //fileSize[fileName] = size;
+                    if (!fileSize.ContainsKey(fileName))
+                    {
+                        fileSize.Add(fileName, size);
+                    }
+                    else if (fileSize.ContainsKey(fileName) && fileSize[fileName] < size)
+                    {
+                        fileSize[fileName] = size;
+                    }
+                        
+
+                }
             }
+            //Ordering as per requirements
+            fileSize = fileSize.OrderByDescending(x => x.Value).ThenBy(x => x.Key).ToDictionary( x => x.Key, y => y.Value);
 
             //output
+            if (fileSize.Count == 0)
+            {
+                Console.WriteLine("No");
+            }
+            else
+            {
+                foreach (var keyValuePair in fileSize)
+                {
+                    Console.WriteLine(keyValuePair.Key + " - " + keyValuePair.Value + " KB");
+                }
+            }
+            
+           
         }
     }
 }

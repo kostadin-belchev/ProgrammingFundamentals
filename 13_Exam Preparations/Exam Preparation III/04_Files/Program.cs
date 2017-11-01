@@ -15,9 +15,7 @@ namespace _04_Files
             List<string> allFiles = new List<string>();
 
             for (long i = 0; i < N; i++)
-            {
                 allFiles.Add(Console.ReadLine());
-            }
 
             string[] searchItems = Console.ReadLine().Split().ToArray();
             string extension = searchItems[0];
@@ -37,35 +35,21 @@ namespace _04_Files
                     var pathTokens = filePath.Split('\\');
                     var fileName = pathTokens.Last();
                     //fileSize[fileName] = size;
-                    if (!fileSize.ContainsKey(fileName))
-                    {
-                        fileSize.Add(fileName, size);
-                    }
-                    else if (fileSize.ContainsKey(fileName) && fileSize[fileName] < size)
-                    {
+                    //if (!fileSize.ContainsKey(fileName))
+                        //fileSize.Add(fileName, size);
+                    //else if (fileSize.ContainsKey(fileName) && fileSize[fileName] < size)
                         fileSize[fileName] = size;
-                    }
-                        
-
                 }
             }
             //Ordering as per requirements
-            fileSize = fileSize.OrderByDescending(x => x.Value).ThenBy(x => x.Key).ToDictionary( x => x.Key, y => y.Value);
-
+            //fileSize = fileSize.OrderByDescending(x => x.Value).ThenBy(x => x.Key).ToDictionary( x => x.Key, y => y.Value);
+            var sortedOutputFiles = fileSize.OrderByDescending(x => x.Value).ThenBy(x => x.Key);
             //output
-            if (fileSize.Count == 0)
-            {
+            if (sortedOutputFiles.Count() == 0)
                 Console.WriteLine("No");
-            }
             else
-            {
-                foreach (var keyValuePair in fileSize)
-                {
+                foreach (var keyValuePair in sortedOutputFiles)
                     Console.WriteLine(keyValuePair.Key + " - " + keyValuePair.Value + " KB");
-                }
-            }
-            
-           
         }
     }
 }

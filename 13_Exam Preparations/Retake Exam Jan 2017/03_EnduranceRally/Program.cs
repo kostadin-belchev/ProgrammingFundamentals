@@ -60,26 +60,3 @@ class EnduranceRally
             return false;
     }
 }
-
-//List<int> initialFuels = new List<int>();
-//        foreach (var driver in listOfDrivers)
-//            initialFuels.Add((int) driver.First());
-
-//        Dictionary<string, double> driversFuel = new Dictionary<string, double>();
-
-//        for (int i = 0; i<listOfDrivers.Count; i++)
-//        {
-//            driversFuel.Add(listOfDrivers[i], initialFuels[i]);
-//        }
-
-//        foreach (var df in driversFuel)
-//        {
-//            for (int i = 0; i<listOfZones.Count; i++)
-//            {
-//                if (IsCheckpoint(listOfZones[i]))
-//                    driversFuel[df.Key] += listOfZones[i];
-//                else
-//                    driversFuel[df.Key] -= listOfZones[i];
-//            }
-//        }
-

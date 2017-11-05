@@ -42,7 +42,7 @@ class Program
                     {
                         var start = int.Parse(commandTokens[2]);
                         var count = int.Parse(commandTokens[4]);
-                        items.Sort(start, count, null);
+                        items.Sort(start, count, StringComparer.InvariantCulture);
                     }
                     catch (Exception)
                     {
@@ -64,7 +64,7 @@ class Program
                     try
                     {
                         var count = int.Parse(commandTokens[1]);
-                        items = RollRight(items, count);
+                        RollRight(items, count);
                     }
                     catch (Exception)
                     {
@@ -101,37 +101,20 @@ class Program
         }
     }
 
-    private static List<string> RollRight(List<string> A, int k)
+
+
+    private static void RollRight(List<string> input, int count)
     {
-        //Rotate an array to the right by a given number of steps.
+       //Rotate an array to the right by a given number of steps.
         // eg k= 1 A = [3, 8, 9, 7, 6] the result is [6, 3, 8, 9, 7]
         // eg k= 3 A = [3, 8, 9, 7, 6] the result is [9, 7, 6, 3, 8]
-        int K = k % A.Count;
-
-        if (A.Count == 0 || A.Count == 1)
-            return A;
-
-        string lastElement;
-        List<string> newArray = new List<string>();
-
-        List<string> listOfNumbers = new List<string>();
-
-        for (int i = 1; i < K + 1; i++)
+        count = count % input.Count;
+        for (int i = 0; i < count; i++)
         {
-
-            lastElement = A[A.Count - 1];
-            newArray = A.Take(A.Count - 1).ToList();
-            listOfNumbers = newArray.ToList<string>();
-            listOfNumbers.Insert(0, lastElement);
-
-            A = listOfNumbers.ToList();
-            newArray = A;
-
+            string lastElem = input[input.Count - 1];
+            input.RemoveAt(input.Count - 1);
+            input.Insert(0, lastElem);
         }
-        return newArray;
-        
     }
-
-    
 }
 

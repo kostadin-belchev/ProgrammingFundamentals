@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_WinningTicket", "04_Winn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_EndureanceRally2.0", "05_EndureanceRally2.0\05_EndureanceRally2.0.csproj", "{F8A19A9F-FF62-49E8-B14B-39E14C5A8192}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDtoNameFromFile", "IDtoNameFromFile\IDtoNameFromFile.csproj", "{57F0D811-C83C-44AF-9B8D-1D54D886F9B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F8A19A9F-FF62-49E8-B14B-39E14C5A8192}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8A19A9F-FF62-49E8-B14B-39E14C5A8192}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8A19A9F-FF62-49E8-B14B-39E14C5A8192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F0D811-C83C-44AF-9B8D-1D54D886F9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F0D811-C83C-44AF-9B8D-1D54D886F9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F0D811-C83C-44AF-9B8D-1D54D886F9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F0D811-C83C-44AF-9B8D-1D54D886F9B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

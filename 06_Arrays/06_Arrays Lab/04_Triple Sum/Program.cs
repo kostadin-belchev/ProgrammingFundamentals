@@ -10,7 +10,7 @@ namespace _04_Triple_Sum
     {
         static void Main(string[] args)
         {
-            int[] arr = Console.ReadLine().Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            int[] arr = Console.ReadLine().Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries).Select(element => int.Parse(element)).ToArray();
 
             bool tripletExists = false;
             //Console.WriteLine($"{a} + {b} == {a + b}");
